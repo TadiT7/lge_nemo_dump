@@ -1,0 +1,41 @@
+<audio_platform_info>
+    <acdb_ids>
+        <device name="SND_DEVICE_IN_BT_SCO_MIC_NREC" acdb_id="122"/>
+        <device name="SND_DEVICE_IN_BT_SCO_MIC_WB_NREC" acdb_id="123"/>
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC_HFP" acdb_id="91"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_HFP" acdb_id="92"/>
+    </acdb_ids>
+
+    <config_params>
+        <param key="operator_info" value="att;310150;310170;310410;311180;310560"/>
+        <param key="operator_info" value="vzw;311480"/>
+        <param key="operator_info" value="lgu;45006"/>
+        <param key="operator_info" value="skt;45005;45011"/>
+        <param key="operator_info" value="kt;45002;45008"/>
+    </config_params>
+
+    <operator_specific>
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC" operator="att" mixer_path="voice-speaker-mic" acdb_id="1011"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER" operator="att" mixer_path="voice-speaker" acdb_id="1015"/>
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC_HFP" operator="att" mixer_path="voice-speaker-mic-hfp" acdb_id="1091"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_HFP" operator="att" mixer_path="voice-speaker-hfp" acdb_id="1092"/>
+
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC_HFP" operator="vzw" mixer_path="voice-speaker-mic-hfp" acdb_id="1191"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_HFP" operator="vzw" mixer_path="voice-speaker-hfp" acdb_id="1192"/>
+
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC" operator="lgu" mixer_path="voice-speaker-mic" acdb_id="2011"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER" operator="lgu" mixer_path="voice-speaker" acdb_id="2015"/>
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC_HFP" operator="lgu" mixer_path="voice-speaker-mic-hfp" acdb_id="2091"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_HFP" operator="lgu" mixer_path="voice-speaker-hfp" acdb_id="2092"/>
+
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC" operator="skt" mixer_path="voice-speaker-mic" acdb_id="2111"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER" operator="skt" mixer_path="voice-speaker" acdb_id="2115"/>
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC_HFP" operator="skt" mixer_path="voice-speaker-mic-hfp" acdb_id="2191"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_HFP" operator="skt" mixer_path="voice-speaker-hfp" acdb_id="2192"/>
+
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC" operator="kt" mixer_path="voice-speaker-mic" acdb_id="2211"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER" operator="kt" mixer_path="voice-speaker" acdb_id="2215"/>
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC_HFP" operator="kt" mixer_path="voice-speaker-mic-hfp" acdb_id="2291"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_HFP" operator="kt" mixer_path="voice-speaker-hfp" acdb_id="2292"/>
+    </operator_specific>
+</audio_platform_info>

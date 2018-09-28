@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.lge.watchface3d"
+            file="/system/priv-app/Lge3DWatchfaceContents/Lge3DWatchfaceContents.apk"/>
+</permissions>
